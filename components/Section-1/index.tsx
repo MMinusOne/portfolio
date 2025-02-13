@@ -3,8 +3,8 @@
 import React from "react";
 
 import { ContactBar } from "./ContactBar";
-import { ProfileHeader } from "../Section-1/PorfileHeader";
-import { StatsSection } from "../Section-1/StatsSection";
+import { ProfileHeader } from "./ProfileHeader";
+import { StatsSection } from "./StatsSection";
 
 
 export const ProfileSection: React.FC = () => {

@@ -1,4 +1,4 @@
-import { ProfileSection } from "@/components/portfolio/ProfileSection";
+import { ProfileSection } from "@/components/Section-1";
 
 export default function Home() {
   return (

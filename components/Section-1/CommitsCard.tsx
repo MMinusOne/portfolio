@@ -7,7 +7,7 @@ export const CommitsCard: React.FC = () => {
         <div className="z-10 text-slate-200 text-2xl text-opacity-80">
           Commits this Month
         </div>
-        <div className="z-10 mt-6 text-slate-200 max-md:text-4xl text-6xl text-opacity-80">
+        <div className="z-10 mt-6 text-slate-200 max-md:text-4xl text-6xl text-opacity-80 truncate">
           <CountUp end={300} duration={4} />
         </div>
         <div className="z-10 mt-6 text-slate-200 text-2xl text-opacity-80">
