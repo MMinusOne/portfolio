@@ -9,7 +9,7 @@ export default function Card(props: {
       <div className="z-10 text-slate-200 text-2xl text-opacity-80">
         {props.title}
       </div>
-      <div className="z-10 mt-6 text-slate-200 max-md:text-4xl text-6xl text-opacity-80 truncate">
+      <div className="z-10 mt-6 text-[3.5rem] text-slate-200 max-md:text-4xl text-center text-opacity-80 truncate">
         {props.children}
       </div>
       <div className="z-10 mt-6 text-slate-200 text-2xl text-opacity-80">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.scss";
+import aos from 'aos';
 
 export const metadata: Metadata = {
   title: "MMinusOne",
