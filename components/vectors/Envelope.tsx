@@ -1,4 +1,6 @@
-export default function Envelope() {
+import { SVGProps } from "react";
+
+export default function Envelope(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="41"
@@ -6,6 +8,7 @@ export default function Envelope() {
       viewBox="0 0 41 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <g clip-path="url(#clip0_43_6)">
         <path

@@ -6,7 +6,6 @@ import { ContactBar } from "./ContactBar";
 import { ProfileHeader } from "./ProfileHeader";
 import { StatsSection } from "./StatsSection";
 
-
 export const ProfileSection: React.FC = () => {
   return (
     <div className="relative flex flex-wrap justify-center items-center gap-10 bg-slate-950 w-full max-md:max-w-full min-h-[975px] overflow-hidden">
@@ -19,7 +18,9 @@ export const ProfileSection: React.FC = () => {
         <div className="self-center mt-12 max-md:mt-10 w-full max-md:max-w-full max-w-6xl">
           <StatsSection />
         </div>
+      </div>
 
+      <div className="z-10 mb-8 w-full max-w-[1200px]">
         <ContactBar />
       </div>
     </div>
