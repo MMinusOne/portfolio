@@ -2,7 +2,7 @@ import { ProfileSection } from "@/components/portfolio/ProfileSection";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden bg-white">
+    <main className="bg-white overflow-hidden">
       <ProfileSection />
     </main>
   );
