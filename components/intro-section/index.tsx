@@ -4,9 +4,10 @@ import ContactBar from "./ContactBar";
 
 const IntroSection = () => {
   return (
-    <div className="overflow-hidden bg-white">
-      <div className="flex flex-wrap gap-10 justify-center items-center w-full bg-zinc-800 min-h-[975px] max-md:max-w-full">
-        <div className="flex flex-col self-stretch my-auto rounded-none min-w-60 w-[1146px]">
+    <div className="h-full overflow-hidden">
+      <div className="flex flex-wrap justify-center items-center gap-10 bg-neutral-800 w-full max-md:max-w-full min-h-full">
+        <div className="z-[0] absolute bg-neutral-300 opacity-100 blur-[250px] rounded-full w-[200px] aspect-square"></div>
+        <div className="z-10 flex flex-col self-stretch my-auto rounded-none w-[1200px] min-w-60">
           <div className="max-md:max-w-full">
             <ProfileHeader />
           </div>

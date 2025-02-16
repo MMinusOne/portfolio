@@ -7,15 +7,15 @@ import Phone from "../vectors/Phone";
 
 const ContactBar = () => {
   return (
-    <div className="flex flex-wrap gap-7 justify-center items-center self-center mt-40 max-w-full text-2xl text-black min-h-[150px] w-[937px] max-md:mt-10">
+    <div className="flex flex-wrap justify-center items-center self-center gap-7 mt-40 max-md:mt-10 w-[937px] max-w-full min-h-[150px] text-zinc-300 text-2xl">
       <X />
       <LinkedIn />
       <GitHub />
-      <div className="flex gap-7 self-stretch my-auto whitespace-nowrap min-w-60 w-[416px]">
+      <div className="flex self-stretch gap-7 my-auto w-[416px] min-w-60 whitespace-nowrap">
         <Envelope />
         <div className="flex-auto my-auto">michael.business.lb@proton.me</div>
       </div>
-      <div className="flex gap-4 self-stretch my-auto w-[236px]">
+      <div className="flex self-stretch gap-4 my-auto w-[236px]">
         <Phone />
         <div className="my-auto basis-auto">+961 70 222 870</div>
       </div>

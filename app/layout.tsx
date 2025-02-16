@@ -15,13 +15,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   useEffect(() => {
     aos.init();
   });
-  
+
   return (
-    <html lang="en h-full w-full">
+    <html lang="en" className="w-full h-full">
       <body className={`h-full w-full m-0 p-0 antialiased`}>{children}</body>
     </html>
   );
