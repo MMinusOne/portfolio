@@ -1,32 +1,14 @@
-import { SVGProps } from "react";
+import React from "react";
 
-export default function LinkedIn(props: SVGProps<SVGSVGElement>) {
+const LinkedIn = () => {
   return (
-    <svg
-      width="41"
-      height="40"
-      viewBox="0 0 41 40"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
-      <g clip-path="url(#clip0_43_8)">
-        <path
-          d="M37.1429 2H2.84821C1.27679 2 0 3.29464 0 4.88393V39.1161C0 40.7054 1.27679 42 2.84821 42H37.1429C38.7143 42 40 40.7054 40 39.1161V4.88393C40 3.29464 38.7143 2 37.1429 2ZM12.0893 36.2857H6.16071V17.1964H12.0982V36.2857H12.0893ZM9.125 14.5893C7.22321 14.5893 5.6875 13.0446 5.6875 11.1518C5.6875 9.25893 7.22321 7.71429 9.125 7.71429C11.0179 7.71429 12.5625 9.25893 12.5625 11.1518C12.5625 13.0536 11.0268 14.5893 9.125 14.5893ZM34.3125 36.2857H28.3839V27C28.3839 24.7857 28.3393 21.9375 25.3036 21.9375C22.2143 21.9375 21.7411 24.3482 21.7411 26.8393V36.2857H15.8125V17.1964H21.5V19.8036H21.5804C22.375 18.3036 24.3125 16.7232 27.1964 16.7232C33.1964 16.7232 34.3125 20.6786 34.3125 25.8214V36.2857Z"
-          fill="#E2E8F0"
-          fill-opacity="0.7"
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_43_8">
-          <rect
-            width="40"
-            height="40"
-            fill="white"
-            transform="translate(0.5)"
-          />
-        </clipPath>
-      </defs>
-    </svg>
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/0095e07af92295302a93d1b02968e8f4d56ac9e866d2e0414b0fba6e29a06f66?placeholderIfAbsent=true"
+      className="object-contain shrink-0 self-stretch my-auto w-10 aspect-square"
+      alt="LinkedIn"
+    />
   );
-}
+};
+
+export default LinkedIn;

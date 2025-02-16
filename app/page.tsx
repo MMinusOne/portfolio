@@ -1,9 +1,14 @@
-import { ProfileSection } from "@/components/intro-section";
+"use client";
+
+import React from "react";
+import IntroSection from "@/components/intro-section";
+
+// TODO: darken background and make shadow background
 
 export default function Home() {
   return (
-    <main className="bg-white overflow-hidden">
-      <ProfileSection />
+    <main>
+      <IntroSection />
     </main>
   );
 }

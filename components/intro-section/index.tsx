@@ -1,28 +1,20 @@
-"use client";
-
 import React from "react";
+import ProfileHeader from "./ProfileHeader";
+import ContactBar from "./ContactBar";
 
-import { ContactBar } from "./ContactBar";
-import { ProfileHeader } from "./ProfileHeader";
-import { StatsSection } from "./StatsSection";
-
-export const ProfileSection: React.FC = () => {
+const IntroSection = () => {
   return (
-    <div className="relative flex flex-wrap justify-center items-center gap-10 bg-slate-950 w-full max-md:max-w-full min-h-[975px] overflow-hidden">
-      <div className="absolute bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-500 opacity-20 blur-[100px] rounded-full w-[1000px] h-[1000px]" />
-      <div className="z-10 relative flex flex-col items-end self-stretch my-auto rounded-none w-[1200px] min-w-60">
-        <div className="w-full max-w-[1150px] max-md:max-w-full">
-          <ProfileHeader />
+    <div className="overflow-hidden bg-white">
+      <div className="flex flex-wrap gap-10 justify-center items-center w-full bg-zinc-800 min-h-[975px] max-md:max-w-full">
+        <div className="flex flex-col self-stretch my-auto rounded-none min-w-60 w-[1146px]">
+          <div className="max-md:max-w-full">
+            <ProfileHeader />
+          </div>
+          <ContactBar />
         </div>
-
-        <div className="self-center mt-12 max-md:mt-10 w-full max-md:max-w-full max-w-6xl">
-          <StatsSection />
-        </div>
-      </div>
-
-      <div className="z-10 mb-8 w-full max-w-[1200px]">
-        <ContactBar />
       </div>
     </div>
   );
 };
+
+export default IntroSection;
